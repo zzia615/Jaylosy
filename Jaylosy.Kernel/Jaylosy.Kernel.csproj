@@ -45,9 +45,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Attributes\TableAttribute.cs" />
+    <Compile Include="Configurations\AppSettings.cs" />
+    <Compile Include="Configurations\ConnectionStrings.cs" />
     <Compile Include="Database\OracleDbHelper.cs" />
     <Compile Include="Database\SqlDbHelper.cs" />
     <Compile Include="Database\IDbHelper.cs" />
+    <Compile Include="Extensions\TypeConvertExtension.cs" />
+    <Compile Include="Log\LogHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
